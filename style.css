@@ -6,28 +6,38 @@ body {
   text-align: center;
 }
 
-h1 {
+.hero {
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+}
+
+.hero h1 {
   font-size: 50px;
-  margin-top: 30px;
 }
 
-p {
-  font-size: 18px;
+button {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
 }
 
-h2 {
-  margin-top: 40px;
-  font-size: 30px;
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-section {
-  padding: 40px;
-}
-
-#about, #contact {
+.card {
   background: #111;
   margin: 20px;
   padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+  width: 250px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
