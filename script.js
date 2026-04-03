@@ -1,5 +1,1 @@
-function scrollToSection() {
-  document.getElementById("about").scrollIntoView({
-    behavior: "smooth"
-  });
-}
+console.log("Website loaded 🚀");
