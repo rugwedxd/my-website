@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0a0a0a;
+  color: white;
+}
+
+nav {
+  padding: 20px;
+  background: black;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+.card {
+  background: #111;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
