@@ -27,9 +27,22 @@ button {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
+
 .card {
   width: 250px;
+  background: #111;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.12);
+  filter: brightness(1.1);
 }
 
 .card img {
@@ -37,59 +50,31 @@ button {
   max-height: 300px;
   object-fit: contain;
   border-radius: 10px;
+  cursor: pointer;
   transition: transform 0.3s ease;
 }
 
 .card img:hover {
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 
-img {
-  border-radius: 10px;
-  margin-bottom: 10px;
-  transition: 0.3s;
-}
-
-img:hover {
-  transform: scale(1.05);
-}
-
-.card img {
-  border-radius: 10px;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.card img:hover {
-  transform: scale(1.1);
-}
-
-/* Full screen overlay */
 #popup {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.9);
   display: none;
   justify-content: center;
   align-items: center;
 }
 
 #popup img {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 95%;
+  max-height: 95%;
   border-radius: 10px;
-}
-
-#popup img {
-  transition: 0.3s;
-  transform: scale(0.8);
-}
-
-#popup {
-  animation: fadeIn 0.3s ease;
+  transform: scale(1);
 }
 
 @keyframes fadeIn {
