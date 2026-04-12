@@ -7,12 +7,24 @@ body {
 }
 
 .hero {
-  padding: 100px 20px;
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  text-align: center;
 }
 
 .hero h1 {
-  font-size: 50px;
+  font-size: 60px;
+  color: #a78bfa;
+  text-shadow: 0 0 20px rgba(167,139,250,0.6);
+}
+
+.hero p {
+  color: #cbd5f5;
+  font-size: 18px;
 }
 
 button {
