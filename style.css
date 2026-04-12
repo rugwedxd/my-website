@@ -78,8 +78,8 @@ img:hover {
 }
 
 #popup img {
-  width: 400px;
   max-width: 90%;
+  max-height: 90%;
   border-radius: 10px;
 }
 
