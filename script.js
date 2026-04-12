@@ -1,8 +1,21 @@
 function openPopup(src) {
-  document.getElementById("popup").style.display = "flex";
-  document.getElementById("popupImg").src = src;
+  const popup = document.getElementById("popup");
+  const img = document.getElementById("popupImg");
+
+  popup.style.display = "flex";
+  img.src = src;
+
+  setTimeout(() => {
+    img.style.transform = "scale(1)";
+  }, 10);
 }
 
 function closePopup() {
-  document.getElementById("popup").style.display = "none";
+  const popup = document.getElementById("popup");
+  const img = document.getElementById("popupImg");
+
+  img.style.transform = "scale(0.8)";
+  setTimeout(() => {
+    popup.style.display = "none";
+  }, 200);
 }
