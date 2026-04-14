@@ -19,12 +19,12 @@ function closePopup() {
     popup.style.display = "none";
   }, 200);
 }const texts = [
-  "I'm a C/C++ Developer",
-  "I'm a Python Developer",
-  "I'm a Video Editor",
-  "I'm a Minecraft Player",
-  "I'm a Student",
-  "I'm a Frontend Developer"
+  "I'm a C/C++ Developer.",
+  "I'm a Python Developer.",
+  "I'm a Video Editor.",
+  "I'm a Minecraft Player.",
+  "I'm a Student.",
+  "I'm a Frontend Developer."
 ];
 
 let index = 0;
